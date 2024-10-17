@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Squad respawn tracker</title>
+        <meta name="description" content="tracker for tracking enemy vehicles respawn timers in squad">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="create_new_label">
+            <div class="label-input-group">
+                <label for="icon_input">Vehicle icon</label>
+                <input id="icon_input" type="text">
+            </div>
+            <div class="label-input-group">
+                <label for="name_input">Vehicle name</label>
+                <input id="name_input" type="text">
+            </div>
+            <div class="label-input-group">
+                <label for="respawn_time_input">Respawn time (minutes)</label>
+                <input id="respawn_time_input" type="number">
+            </div>
+            <div class="label-input-group">
+                <label for="amount_input">Amount</label>
+                <input id="amount_input" type="text">
+            </div>
+            <div class="button-group">
+                <button onclick="newVehicle(document.getElementById('icon_input').value, document.getElementById('name_input').value, document.getElementById('respawn_time_input').value, document.getElementById('amount_input').value)" name="new vehicle" type="button">New vehicle</button>
+            </div>
+        </div>
+        <br>
+        <div id="vehicle_div">
+            
+        </div>
+    </body>
+    
+    <script src="app.js"></script>
+</html>

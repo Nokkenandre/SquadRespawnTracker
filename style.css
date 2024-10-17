@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #181a1b;
+    color: #e0e0e0;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #555;
+    background-color: #2c2f33;
+    color: #e0e0e0;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/*create new vehicle menu*/
+.create_new {
+    display: flex;  
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.create_new_label {
+    display: flex; 
+}
+
+.label-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/*templates*/
+
+.template {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 75%;
+}
+
+.template img {
+    margin: 0; 
+    padding: 0;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.text_field, .number_field {
+    padding-left: 10px; 
+    padding-right: 150px;
+    height: 44px;
+    align-items: center;
+}
+
+.number_field {
+    padding-right: 50px;
+}
+
+.text_field {
+    padding-right: 150px;
+}
+
+.template_field {
+    outline: 3px solid #23272b;
+}
+
+.delete_button {
+    background-color: red;
+    
+}
+.delete_button:hover {
+    background-color: darkred;
+    
+}
+
+.action_button {
+    padding-top: 15px;
+}
+
+.actions_menu {
+    padding-left: 20px;
+}
+
